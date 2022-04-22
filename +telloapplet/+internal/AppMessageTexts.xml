@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2022 The MathWorks, Inc. -->
+<Messages>
+    <!-- App name -->
+    <appName>Ryze Tello Navigator</appName>
+
+    <!-- Error Messages -->
+    <errorDlgTitle>Ryze Tello Navigator Error</errorDlgTitle>
+    <warningDlgTitle>Ryze Tello Navigator Warning</warningDlgTitle>
+    <unsupportedPlatform>Connecting to Ryze Tello Drone is not supported on Linux</unsupportedPlatform>
+    <spkgNotInstalled>This app needs the MATLAB® Support Package for Ryze® Tello Drones. Open Add-On Explorer to install the required support package.</spkgNotInstalled>
+    <invalidDuration>Record duration must be a finite positive numeric value greater than 1</invalidDuration>
+    <invalidRecordingVarName>Specify a valid MATLAB variable name</invalidRecordingVarName>
+    <variableAlreadyExists>Specified variable name already exists in the MATLAB workspace</variableAlreadyExists>
+    <!-- Warning Messages -->
+    <lowBatteryWarning>Low battery, consider landing the drone</lowBatteryWarning>
+    <lowBatteryDroneLandedWarning>Low battery, consider replacing the batteries</lowBatteryDroneLandedWarning>
+
+    <!-- Messages related to app closing -->
+    <appClosingMsg>Exit the Ryze Tello Navigator app?</appClosingMsg>
+    <yesOptionText>Yes</yesOptionText>
+    <noOptionText>No</noOptionText>
+
+    <!-- Section Titles -->
+    <navigationSectionTitle>Navigation</navigationSectionTitle>
+    <controlsSectionTitle>Controls</controlsSectionTitle>
+    <cameraSectionTitle>Camera</cameraSectionTitle>
+    <recordSectionTitle>Record</recordSectionTitle>
+    <codegenSectionTitle>Code</codegenSectionTitle>
+
+    <!-- Toolstrip Button Texts -->
+    <!-- Navigation Section -->
+    <preFlightCheckButtonText>Pre-Flight Check</preFlightCheckButtonText>
+    <preFlightCheckButtonDescription>Run pre-flight checks for selected drone</preFlightCheckButtonDescription>
+    <takeOffButtonText>Take Off</takeOffButtonText>
+    <takeOffButtonDescription>Initiate take-off of selected drone</takeOffButtonDescription>
+    <landButtonText>Land</landButtonText>
+    <landButtonDescription>Initiate smooth landing of drone</landButtonDescription>
+    <controlsButtonText>Show&#xA;Controls</controlsButtonText>
+    <controlsButtonDescription>Show/Hide control buttons for manual navigation</controlsButtonDescription>
+    <settingsButtonText>Settings</settingsButtonText>
+    <settingsButtonDescription>Precision settings for navigation control</settingsButtonDescription>
+    <!-- Camera Section -->
+    <cameraFeedButtonText>View&#xA;Camera Feed</cameraFeedButtonText>
+    <cameraFeedButtonDescription>Enable/Disable live feed from drone’s camera</cameraFeedButtonDescription>
+    <captureImageButtonText>Capture Image</captureImageButtonText>
+    <captureImageButtonDescription>Capture an instantaneous image to Workspace</captureImageButtonDescription>
+    <!-- Record Section -->
+    <logToWorkSpaceText>Workspace Variable</logToWorkSpaceText>
+    <logToWorkSpaceDescription>Workspace variable to store recorded video</logToWorkSpaceDescription>
+    <durationText>Duration (s)</durationText>
+    <durationDescription>Duration to record video</durationDescription>
+    <startRecordingButtonText>Record Video</startRecordingButtonText>
+    <startRecordingButtonDescription>Start video recording from drone’s camera</startRecordingButtonDescription>
+    <stopRecordingButtonText>Stop</stopRecordingButtonText>
+    <stopRecordingButtonDescription>Stop video recording and save to Workspace variable as an image array</stopRecordingButtonDescription>
+    <!-- Codegen Section -->
+    <codegenButtonText>Generate Script</codegenButtonText>
+    <codegenButtonDescription>Generate Live Editor script of completed navigation when drone is in landed state</codegenButtonDescription>
+
+    <!-- Sensor Data Section Texts-->
+    <preFlightIncompleteText>Pre-Flight Check Incomplete</preFlightIncompleteText>
+    <preFlightCompleteText>Pre-Flight Check Complete</preFlightCompleteText>
+
+    <yawDataLabel>Yaw&#xA;(rad)</yawDataLabel>
+    <yawTooltip>Rotation around verticle axis</yawTooltip>
+    <pitchDataLabel>Pitch&#xA;(rad)</pitchDataLabel>
+    <pitchTooltip>Rotation around side-to-side axis</pitchTooltip>
+    <rollDataLabel>Roll&#xA;(rad)</rollDataLabel>
+    <rollTooltip>Rotation around front-to-back axis</rollTooltip>
+
+    <xAxisSpeedLabel>X-Speed&#xA;(m/s)</xAxisSpeedLabel>
+    <yAxisSpeedLabel>Y-Speed&#xA;(m/s)</yAxisSpeedLabel>
+    <zAxisSpeedLabel>Z-Speed&#xA;(m/s)</zAxisSpeedLabel>
+
+    <heightLabel>Height&#xA;(m)</heightLabel>
+    <heightTooltip>Current height relative to the takeoff surface</heightTooltip>
+
+    <angleUnit>rad</angleUnit>
+    <speedUnit>m/s</speedUnit>
+    <heightUnit>m</heightUnit>
+
+    <!-- Command Log Section Texts-->
+    <commandLogTimeColumn>Time</commandLogTimeColumn>
+    <commandLogCommandColumn>Command</commandLogCommandColumn>
+    <commandLogValueColumn>Parameters</commandLogValueColumn>
+
+    <!-- Navigation Section Texts-->
+    <moveLeftButtonText>Left&#xA;(A)</moveLeftButtonText>
+    <moveForwardButtonText>Forward (W)</moveForwardButtonText>
+    <moveRightButtonText>Right&#xA;(D)</moveRightButtonText>
+    <moveBackwardButtonText>Back (S)</moveBackwardButtonText>
+
+    <batteryLevelLabel>Charge&#xA;Remaining</batteryLevelLabel>
+    <signalStrengthLabel>Signal&#xA;Strength</signalStrengthLabel>
+    <emergencyLandButtonText>Emergency Land</emergencyLandButtonText>
+
+    <turnCCWButtonText>Turn&#xA;CCW&#xA;(←)</turnCCWButtonText>
+    <moveUpButtonText>Up (↑)</moveUpButtonText>
+    <turnCWButtonText>Turn&#xA;CW&#xA;(→)</turnCWButtonText>
+    <moveDownButtonText>Down (↓)</moveDownButtonText>
+
+    <!-- Toolstrip Section Workflow Texts-->
+    <preFlightCheckDialogTitle>Run Pre-Flight Check</preFlightCheckDialogTitle>
+
+    <preFlightCheckWarningText>Ensure that the drone is placed in a safe environment.&#xA;You will not be able to control the drone while Pre-Flight Check is in progress.</preFlightCheckWarningText>
+
+    <preNavigationCheckText>Check Drone Navigation</preNavigationCheckText>
+    <preSensorDataCheckText>Check Drone Sensor Data</preSensorDataCheckText>
+    <preCameraFeedCheckText>Check Drone Camera Feed</preCameraFeedCheckText>
+
+    <checkingsDroneNavigationText>Checking Drone Navigation</checkingsDroneNavigationText>
+    <checkingSensorDataText>Checking Drone Sensor Data</checkingSensorDataText>
+    <checkingCameraFeedText>Checking Drone Camera Feed</checkingCameraFeedText>
+
+    <successfulNavigationCheckText>Checked Drone Navigation</successfulNavigationCheckText>
+    <successfulSensorDataCheckText>Sensor Data Received</successfulSensorDataCheckText>
+    <successfulCameraFeedCheckText>Camera Feed Received</successfulCameraFeedCheckText>
+
+    <failedNavigationCheckText>Possible issues with Navigation</failedNavigationCheckText>
+    <failedSensorDataCheckText>Possible issues with Sensor Data</failedSensorDataCheckText>
+    <failedCameraFeedCheckText>Possible issues with Camera Feed</failedCameraFeedCheckText>
+
+    <preFlightCheckSuccessLabel>Pre-Flight Check completed successsfully.&#xA;Click OK to Finish.</preFlightCheckSuccessLabel>
+    <preFlightCheckFailureLabel>Possible issues in Pre-Flight Check.&#xA;Try manually troubleshooting the drone connection. Click OK to Finish.</preFlightCheckFailureLabel>
+
+    <continuePreFlightCheckButtonText>Continue</continuePreFlightCheckButtonText>
+    <preFlightCheckCompletionButtonText>OK</preFlightCheckCompletionButtonText>
+
+    <!-- Navigation Section Workflow Texts-->
+    <settingsConfigurationDialogTitle>Setup Navigation</settingsConfigurationDialogTitle>
+
+    <distanceSettingDescription>Specify the distance Tello drone will navigate.</distanceSettingDescription>
+    <distanceSettingLabel>Navigation Distance:</distanceSettingLabel>
+
+    <turnSettingDescription>Specify the angle Tello drone will turn by.</turnSettingDescription>
+    <turnSettingLabel>Turn Angle:</turnSettingLabel>
+
+    <speedSettingDescription>Specify how fast the Tello drone will navigate.</speedSettingDescription>
+    <speedSettingLabel>Navigation Speed:</speedSettingLabel>
+
+    <restoreDefaultButtonText>Restore Defaults</restoreDefaultButtonText>
+    <okButtonText>OK</okButtonText>
+    <continueButtonText>Continue</continueButtonText>
+    <cancelButtonText>Cancel</cancelButtonText>
+
+    <emergencyLandDialogTitle>Emergency Land</emergencyLandDialogTitle>
+    <emergencyLandDialogTextTitle>Emergency Land?</emergencyLandDialogTextTitle>
+    <emergencyLandDialogText>Emergency Land will shut off the Tello drone motors&#xA;causing it to fall to the ground from the current height.</emergencyLandDialogText>
+
+    <!-- CodeGen Section Workflow Texts-->
+    <scriptTitle>Auto-generated by Ryze Tello Navigator App on .</scriptTitle>
+    <introSectionHeader>Introduction</introSectionHeader>
+    <introSectionComment>This script is usable outside of the Ryze Tello Navigator to replicate its actions.&#xA;The script demonstrates the MATLAB® command line workflow using functions provided in the MATLAB® Support Package for Ryze® Tello Drones.&#xA;You can modify it to build your own script, function, or application.</introSectionComment>
+
+    <createRyzeObjectSectionHeader>Create a Ryze Tello drone and Camera Connection</createRyzeObjectSectionHeader>
+    <createRyzeObjectSectionComment>Create a Ryze Tello drone connection using the specified device ID.&#xA;Create a connection to the drone camera</createRyzeObjectSectionComment>
+
+    <navigationSectionHeader>Navigate Ryze Tello Drone</navigationSectionHeader>
+    <navigationSectionComment>Navigate Ryze Tello Drone and capture images using MATLAB Support Package for Ryze Tello Drones APIs</navigationSectionComment>
+
+    <recordingSectionComment>Uncomment the lines of code below to record the data for the specified duration into a workspace variable.</recordingSectionComment>
+    <recordDurationComment>Duration to record data(in seconds).</recordDurationComment>
+
+    <cleanUpSectionHeader>Clean Up</cleanUpSectionHeader>
+    <cleanUpSectionComment>Clear variables that are not needed.</cleanUpSectionComment>
+
+    <!-- Reconnect workflow -->
+    <reconnectLabelText>Connection to Tello Drone is lost,&#xA;check Wi-Fi connecton and try again.</reconnectLabelText>
+    <reconnectButtonText>Reconnect</reconnectButtonText>
+    <reconnectionDialogTitle>Reconnect Drone</reconnectionDialogTitle>
+    <reconnectionProgressTitle>Reconnecting...</reconnectionProgressTitle>
+</Messages>
