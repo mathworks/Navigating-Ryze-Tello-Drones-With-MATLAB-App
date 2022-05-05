@@ -1,6 +1,6 @@
 # Navigating Ryze Tello Drones With MATLAB App
 
-[![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/####-Navigating-Ryze-Tello-Drones-With-MATLAB-App)
+[![View Navigating-Ryze-Tello-Drones-With-MATLAB-App on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/111210-navigating-ryze-tello-drones-with-matlab-app)
 
 To interactively control a Ryze&reg; Tello Drone connected to your computer running MATLAB&reg;, MathWorks&reg; provides a MATLAB app - Ryze Tello Navigator. This app helps you to:
 
@@ -110,7 +110,7 @@ To do this, click **Generate Script** after you successfully land the drone.
 
 
 ## License
-The license for <insert repo name> is available in the [LICENSE.TXT](LICENSE.TXT) file in this GitHub repository.
+The license for <insert repo name> is available in the [LICENSE.TXT](https://github.com/mathworks/Navigating-Ryze-Tello-Drones-With-MATLAB-App/blob/main/license.txt) file in this GitHub repository.
 
 ## Community Support
 [MATLAB Central](https://www.mathworks.com/matlabcentral)
