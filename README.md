@@ -30,7 +30,7 @@ To interactively control a Ryze&reg; Tello Drone connected to your computer runn
 >> savepath;
 6. Launch the app by executing *ryzeTelloNavigator* command.
 
-### MathWorks Products (http://www.mathworks.com)
+### MathWorks Products (https://www.mathworks.com)
 
 Requires MATLAB release R2022a or newer
 - [MATLAB&reg; Support Package for Ryze Tello&reg; Drones](https://www.mathworks.com/hardware-support/tello-drone-matlab.html)
