@@ -21,7 +21,7 @@ To interactively control a Ryze&reg; Tello Drone connected to your computer runn
 ## Installation and Setup 
 
 1. Install MATLAB and MATLAB Support Package for Ryze Tello Drones
-2. Perform the initial [Setup and Configuration](https://www.mathworks.com/help/matlab/setup-and-configuration-ryzeio.html) and connect to one or more Ryze Tello Drones.
+2. Perform the initial [Setup and Configuration](https://mathworks.com/help/matlab/setup-and-configuration-ryzeio.html) and connect to one or more Ryze Tello Drones.
 3. Download or clone this repository.
 4. Navigate to the local repository folder in MATLAB
 5. Execute the following commands in MATLAB command window:
